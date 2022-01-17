@@ -17,6 +17,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .httpBasic();
+        http.csrf().disable();
     }
 
     public void configure(AuthenticationManagerBuilder auth) throws Exception
