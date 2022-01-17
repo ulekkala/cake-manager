@@ -66,4 +66,4 @@ To run project from docker container use below commands:
 
 Start Docker desktop
 Run following docker command in terminal to pull docker container "docker pull udayalekkala/cake-manager:latest".
-Verify docker images by runing "Docker images" command in terminal. Then run "docker run udayalekkala/cake-manager"
+Verify docker images by runing "Docker images" command in terminal. Then run "docker run -p 8282:8282 udayalekkala/cake-manager"
